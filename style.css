@@ -1,0 +1,144 @@
+
+*
+{
+    margin:0%;
+    padding: 0%;
+     box-sizing: border-box;
+     font-family: montserrat;
+}
+.header
+{
+    margin-top: 5%;
+    padding: 0px 20px;
+}
+.header h3
+{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.header h1
+{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 50px;
+    color: green;
+
+}
+.header p 
+{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+.gallery 
+{
+    height: auto;
+    margin-top:70px;
+    margin-bottom: 30px;
+}
+.clients-info 
+{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.client-one 
+{
+    height: 450px;
+    width: 30%;
+    background-color: lightgrey;
+    border-radius:10px;
+}
+.client-two 
+{
+    height: 500px;
+    width: 30%;
+    background-color: lightgrey;
+    border-radius:10px;
+}.client-three 
+{
+    height: 500px;
+    width: 30%;
+    background-color: lightgrey;
+    border-radius:10px;
+}
+.prof
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+
+}
+.client-one p 
+{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10%;
+}
+.client-one h3 
+{
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
+.client-one h2 
+{
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+}
+.client-two p 
+{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10%;
+}
+.client-two h3 
+{
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
+.client-two h2 
+{
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+}.client-three p 
+{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10%;
+}
+.client-three h3 
+{
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
+.client-three h2 
+{
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+}
+

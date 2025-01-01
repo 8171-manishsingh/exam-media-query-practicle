@@ -1,0 +1,73 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+nav
+{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+.navbar
+{
+    height: 100%;
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+.logo
+{
+    height: 100%;
+    width: 5%;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.menu-list
+{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.menu-list .menu
+{
+    display:flex;
+    position: fixed;
+    top:2%;
+
+}
+.menu-list .menu li
+{
+    list-style: none;
+    
+}
+.menu-list .menu li a 
+{
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.Droupdown
+{
+    display: none;
+}
+ul li:hover .Droupdown
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 190%;
+    background-color: antiquewhite;
+     
+}

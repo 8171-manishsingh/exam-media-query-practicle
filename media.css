@@ -1,0 +1,35 @@
+
+
+@media (max-width:768px) {
+    .clients-info 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .client-one,.client-two,.client-three 
+    {
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+}
+
+@media (max-width:992px) {
+    .clients-info 
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .client-one,.client-two 
+    {
+        width: 48%;
+        
+    }
+    .client-three
+    {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
